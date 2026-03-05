@@ -1,13 +1,21 @@
 <p align="center">
-  <img src="files/public/Logo_pro.jpg" alt="Burp Bounty Pro" height="80">
+  <img src="static/Logo_pro.jpg" alt="Burp Bounty Pro" height="80">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="files/public/BountySecurity_Logo.png" alt="Bounty Security" height="60">
+  <img src="static/BountySecurity_Logo.png" alt="Bounty Security" height="60">
 </p>
 
 <h1 align="center">Burp Bounty Vuln App</h1>
 
 <p align="center">
-  Intentionally vulnerable web application for testing <a href="https://bountysecurity.ai/pages/burp-bounty">Burp Bounty Pro</a> detection profiles.
+  <strong>Intentionally vulnerable web application for testing
+  <a href="https://bountysecurity.ai/pages/burp-bounty">Burp Bounty Pro</a> detection profiles</strong>
+</p>
+
+<p align="center">
+  <a href="#quick-start">Quick Start</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="#vulnerability-categories">Categories</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="#how-to-use-with-burp-bounty-pro">Usage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+  <a href="https://bountysecurity.ai">Bounty Security</a>
 </p>
 
 ---
@@ -35,12 +43,12 @@ docker build -t burpbounty-vulnapp .
 docker run -p 8088:8088 burpbounty-vulnapp
 ```
 
-Then open **http://localhost:8088** in your browser.
+Open **http://localhost:8088** in your browser.
 
 ## Vulnerability Categories
 
-| Category | Endpoints | Description |
-|----------|-----------|-------------|
+| Category | # | Description |
+|:---------|:-:|:------------|
 | **XSS** | 14 | Reflected, DOM, blind, attribute/tag/JS context, encoded |
 | **SQL Injection** | 7 | Error-based, time-based, blind, OOB |
 | **Remote Code Execution** | 13 | Command injection, eval, Log4j, blind RCE |
@@ -61,12 +69,12 @@ Then open **http://localhost:8088** in your browser.
 
 ## How to Use with Burp Bounty Pro
 
-1. Start the Vuln App with Docker
-2. Open Burp Suite and configure your browser to use Burp as a proxy
-3. Navigate to `http://localhost:8088` — the landing page lists all available endpoints
-4. Load your Burp Bounty Pro profiles
-5. Run active/passive scans against the application
-6. Verify that your profiles detect the expected vulnerabilities
+1. **Start** the Vuln App with Docker
+2. **Configure** your browser to use Burp Suite as a proxy
+3. **Browse** to `http://localhost:8088` &mdash; the landing page lists all available endpoints
+4. **Load** your Burp Bounty Pro profiles
+5. **Scan** &mdash; run active/passive scans against the application
+6. **Verify** that your profiles detect the expected vulnerabilities
 
 ## Requirements
 
