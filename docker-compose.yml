@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  vulnapp:
+    build: .
+    ports:
+      - "8088:8088"
+    environment:
+      - FLASK_ENV=development
+    restart: unless-stopped
