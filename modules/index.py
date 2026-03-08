@@ -92,7 +92,7 @@ h2 {
     </div>
 </div>
 <div class="container">
-<p class="warn">WARNING: Intentionally vulnerable application for testing Burp Bounty profiles. Run it only in isolated environments.</p>
+<p class="warn">WARNING: Intentionally vulnerable application for testing Burp Bounty profiles.</p>
 
 <h2>XSS (14 profiles)</h2>
 <div class="section grid">
