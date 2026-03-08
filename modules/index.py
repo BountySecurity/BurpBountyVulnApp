@@ -4,7 +4,7 @@ index_bp = Blueprint('index', __name__)
 
 INDEX_HTML = """<!DOCTYPE html>
 <html>
-<head><title>BurpBounty Vuln App</title>
+<head><title>Burp Bounty Lab</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; color: #1a1a1a; }
@@ -85,8 +85,8 @@ h2 {
 <div class="header">
     <div class="header-left">
         <img src="/static/Logo_pro.jpg" alt="Burp Bounty Pro">
-        <h1>Vuln App</h1>
     </div>
+    <h1>Burp Bounty Lab</h1>
     <div class="header-right">
         <img src="/static/BountySecurity_Logo.png" alt="Bounty Security">
     </div>
