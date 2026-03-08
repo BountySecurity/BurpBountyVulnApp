@@ -3,15 +3,10 @@ services:
   vulnapp:
     build: .
     ports:
-      - "80:8088"
+      - "8088:8088"
     environment:
       - FLASK_ENV=development
     restart: unless-stopped
-    deploy:
-      resources:
-        limits:
-          cpus: '8'
-          memory: 56G
     security_opt:
       - no-new-privileges:true
     tmpfs:
