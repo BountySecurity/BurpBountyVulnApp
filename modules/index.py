@@ -85,11 +85,11 @@ h2 {
 <body>
 <div class="header">
     <div class="header-left">
-        <img src="/static/Logo_pro.jpg" alt="Burp Bounty Pro">
+        <a href="https://bountysecurity.ai/pages/burp-bounty"><img src="/static/Logo_pro.jpg" alt="Burp Bounty Pro"></a>
     </div>
     <h1>Burp Bounty Lab</h1>
     <div class="header-right">
-        <img src="/static/BountySecurity_Logo.png" alt="Bounty Security">
+        <a href="https://bountysecurity.ai"><img src="/static/BountySecurity_Logo.png" alt="Bounty Security"></a>
     </div>
 </div>
 <div class="container">
